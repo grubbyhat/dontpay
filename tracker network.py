@@ -1,5 +1,3 @@
-from asyncore import write
-from signal import valid_signals
 import requests
 from matplotlib import pyplot as plt
 import matplotlib
@@ -98,13 +96,6 @@ def send_mail(final,email_choice):
         smtp.sendmail(email_sender, email_choice, em.as_string())
 
 
-# def should_send(threshold, email_choice):
-#     now, final = resps()
-#     if final > threshold:
-#         send_mail(final, email_choice)
-#     else:
-#         time.sleep(60)
-#         should_send(threshold, email_choice)
 
 
 
