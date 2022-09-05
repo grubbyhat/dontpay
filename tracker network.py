@@ -79,8 +79,8 @@ def read_text():
 
 
 def send_mail(final,email_choice):
-    email_sender = 'pythonscriptjakeludlam@gmail.com'
-    email_password = 'rzylvmqogzvddbwu'
+    email_sender = EMAIL
+    email_password = PASSWORD
 
     email_subject = 'dontpay.uk update'
     email_body ='Your threshold has been broken and now' + str(final) + ' people have signed up to the dontpay.uk campaign'
